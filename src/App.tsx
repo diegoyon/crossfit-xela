@@ -1,12 +1,15 @@
 import React from 'react';
 import Navbar from './components/Navbar';
+import Home from './sections/Home';
 
 const App = () => {
   return (
-    <div>
+    <>
       <Navbar />
-      <p>Hello!</p>
-    </div>
+      <main>
+        <Home />
+      </main>
+    </>
   );
 };
 
