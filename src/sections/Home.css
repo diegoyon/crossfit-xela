@@ -4,4 +4,37 @@
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+  position: relative;
+}
+
+.content {
+  position: absolute;
+  width: 65%;
+  color: white;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  gap: 1rem;
+}
+
+.content h1 {
+  font-size: 2rem;
+}
+
+.content p {
+  font-size: 1rem;
+  line-height: 1.4rem;
+}
+
+.content button {
+  padding: 0.8rem 1.8rem;
+  width: fit-content;
+  align-self: center;
+  background-color: red;
+  border: none;
+  font-weight: 700;
+  border-radius: 5px;
 }
