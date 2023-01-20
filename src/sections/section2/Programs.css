@@ -1,0 +1,13 @@
+.programs {
+  margin-top: 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 2rem;
+}
+
+.program-card {
+  width: 80%;
+  padding: 1rem;
+  border: 1px solid black;
+}
