@@ -7,6 +7,10 @@
   font-family: 'Inter', sans-serif;
 }
 
+:root {
+  --color-red: #ff0200;
+}
+
 ul {
   list-style: none;
 }
