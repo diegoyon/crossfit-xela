@@ -1,6 +1,7 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Home from './sections/Home';
+import Home from './sections/section1/Home';
+import Programs from './sections/section2/Programs';
 
 const App = () => {
   return (
@@ -8,6 +9,7 @@ const App = () => {
       <Navbar />
       <main>
         <Home />
+        <Programs />
       </main>
     </>
   );
