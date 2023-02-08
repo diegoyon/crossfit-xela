@@ -10,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <img src={logo} className="logo" />
+      <img src={logo} className="logo" alt="logo" />
       <ul className="links">
         <div id="hamburger-icon" onClick={handleClick}>
           <span></span>
