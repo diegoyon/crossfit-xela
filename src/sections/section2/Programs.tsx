@@ -4,7 +4,11 @@ import './Programs.css';
 const Programs = () => {
   return (
     <section className="programs">
-      <h2>Clases</h2>
+      <h2>Servicios</h2>
+      <p>
+        Sin importar tu edad o nivel de fitness, nosotros te ayudamos a mejorar
+        tu salud.
+      </p>
       <div className="program-card">
         <div className="card-info">
           <h3>CrossFit</h3>
@@ -15,16 +19,18 @@ const Programs = () => {
           <button>Más informacion</button>
         </div>
       </div>
+
       <div className="program-card">
         <div className="card-info">
-          <h3>HIIT</h3>
+          <h3>Open Gym</h3>
           <p>
-            Nuestro programa de HIIT te hará quemar calorias y te mantendra en
-            forma con movimientos funcionales.
+            Estás interesado en hacer tus propias ejercicios y rutinas. Tenemos
+            un espacio dedicado para tí.
           </p>
-          <button>Más informacion</button>
+          <button>Más información</button>
         </div>
       </div>
+
       <div className="program-card">
         <div className="card-info">
           <h3>Clases Personales</h3>
