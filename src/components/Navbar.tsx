@@ -1,6 +1,7 @@
 import React from 'react';
 // import { NavLink, Link } from 'react-router-dom';
 import './Navbar.css';
+import logo from '../images/logo.png';
 
 const Navbar = () => {
   const handleClick = (event: React.BaseSyntheticEvent) => {
@@ -9,7 +10,7 @@ const Navbar = () => {
 
   return (
     <nav>
-      <h2>CROSSFIT XELA</h2>
+      <img src={logo} className="logo" />
       <ul className="links">
         <div id="hamburger-icon" onClick={handleClick}>
           <span></span>
