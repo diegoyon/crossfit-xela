@@ -1,0 +1,18 @@
+.footer {
+  display: flex;
+  background-color: black;
+  height: 15rem;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.footer img {
+  height: 3rem;
+}
+
+.footer p {
+  color: white;
+  font-size: 0.7rem;
+}

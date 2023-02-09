@@ -1,0 +1,15 @@
+.testimonials {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.testimonials h3 {
+  font-size: 2rem;
+}
+
+.fb-video {
+  background-color: red;
+  width: 100px;
+}
