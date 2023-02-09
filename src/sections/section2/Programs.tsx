@@ -13,7 +13,11 @@ const Programs = () => {
       </p>
 
       {CardsContent.map((card) => (
-        <Cards title={card.title} description={card.description} />
+        <Cards
+          key={card.title}
+          title={card.title}
+          description={card.description}
+        />
       ))}
     </section>
   );

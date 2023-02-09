@@ -25,6 +25,7 @@
   flex-direction: column;
   justify-content: flex-end;
   margin-bottom: 2rem;
+  border-radius: 8px;
 }
 
 .programs .program-card:nth-child(3) {
