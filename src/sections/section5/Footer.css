@@ -16,3 +16,12 @@
   color: white;
   font-size: 0.7rem;
 }
+
+.social {
+  display: flex;
+  gap: 2rem;
+}
+
+.icon {
+  color: white;
+}
