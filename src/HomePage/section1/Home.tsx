@@ -12,6 +12,7 @@ const Home = () => {
             se transfieren a actividades diarias desde cargar las compras del
             supermercado hasta superar desafíos en el trabajo.
           </p>
+
           <button>CLASE DE PRUEBA</button>
         </div>
       </div>

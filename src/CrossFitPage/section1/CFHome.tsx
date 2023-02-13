@@ -1,11 +1,11 @@
 import React from 'react';
-import './CFHome.css';
+// import './CFHome.css';
 
 const CFHome = () => {
   return (
     <section className="CFHome">
-      <div className="black-background">
-        <div className="content">
+      <div>
+        <div>
           <h1>CROSSFIT</h1>
           <p>
             El ejercicio es el elixir de la vida, y los beneficios de CrossFit

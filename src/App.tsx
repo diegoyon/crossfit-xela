@@ -1,17 +1,19 @@
 import React from 'react';
 import Navbar from './components/Navbar';
-import Home from './sections/section1/Home';
-import Programs from './sections/section2/Programs';
-import Testimonials from './sections/section3/Testimonials';
-import Footer from './sections/section5/Footer';
+import Footer from './HomePage/section5/Footer';
+import { Routes, Route } from 'react-router-dom';
+import HomePage from './HomePage/HomePage';
+import CrossFitPage from './CrossFitPage/CrossFitPage';
 
 const App = () => {
   return (
     <>
       <Navbar />
       <main>
-        <Home />
-        <Programs />
+        <Routes>
+          <Route path="/" element={<HomePage />} />
+          <Route path="/crossfit" element={<CrossFitPage />} />
+        </Routes>
       </main>
       <Footer />
     </>

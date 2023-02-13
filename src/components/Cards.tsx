@@ -1,9 +1,11 @@
 import React from 'react';
+import { Link } from 'react-router-dom';
 
-interface Card {
+type Card = {
   title: string;
   description: string;
-}
+  link: string;
+};
 
 const Cards = (props: Card) => {
   const card: Card = props;
@@ -13,7 +15,9 @@ const Cards = (props: Card) => {
       <div className="card-info">
         <h3>{card.title}</h3>
         <p>{card.description}</p>
-        <button>Más información</button>
+        <Link to={card.link}>
+          <button>Más información</button>
+        </Link>
       </div>
     </div>
   );

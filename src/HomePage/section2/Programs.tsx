@@ -17,6 +17,7 @@ const Programs = () => {
           key={card.title}
           title={card.title}
           description={card.description}
+          link={card.link}
         />
       ))}
     </section>
