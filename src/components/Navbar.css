@@ -77,12 +77,12 @@ nav h2 {
   background-color: black;
   color: white;
   width: 100vw;
-  height: 0px;
+  height: 0rem;
   display: block;
   position: fixed;
   top: 2.7rem;
   left: 0;
-  transition: 550ms;
+  transition: 450ms ease;
   overflow: hidden;
 }
 
@@ -92,5 +92,5 @@ nav h2 {
 
 .nav-menu.activated {
   height: 100vh;
-  transition: 550ms;
+  transition: 850ms ease;
 }
