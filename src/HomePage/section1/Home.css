@@ -1,11 +1,14 @@
 .home {
   height: 100vh;
-  background-image: url('../../images/portada.jpg');
-  background-size: cover;
-  background-repeat: no-repeat;
-  background-position: center;
   position: relative;
   animation: scale 0.8s ease-in;
+}
+
+.home img {
+  position: absolute;
+  height: 100%;
+  transform: translateX(-7rem);
+  z-index: -1;
 }
 
 @keyframes scale {
