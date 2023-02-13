@@ -19,3 +19,7 @@ ul {
 main {
   overflow: hidden;
 }
+
+a {
+  text-decoration: none;
+}

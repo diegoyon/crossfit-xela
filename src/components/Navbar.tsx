@@ -1,23 +1,32 @@
 import React, { useState } from 'react';
-// import { NavLink, Link } from 'react-router-dom';
+import { Link } from 'react-router-dom';
 import './Navbar.css';
 import logo from '../images/logo.png';
+import NavbarContent from './NavbarContent';
 
 const Navbar = () => {
   const [mobileMenu, setMobileMenu] = useState(false);
 
   const showMobileMenu = () => setMobileMenu(!mobileMenu);
 
-  const handleClick = (event: React.BaseSyntheticEvent) => {
+  const handleHomeClick = () => {
+    setMobileMenu(false);
+  };
+
+  const handleClick = () => {
     showMobileMenu();
-    event.currentTarget.classList.toggle('open');
   };
 
   return (
     <nav>
-      <img src={logo} className="logo" alt="logo" />
+      <Link to="/" onClick={handleHomeClick}>
+        <img src={logo} className="logo" alt="logo" />
+      </Link>
       <ul className="links">
-        <div id="hamburger-icon" onClick={handleClick}>
+        <div
+          className={mobileMenu ? 'hamburger-icon open' : 'hamburger-icon'}
+          onClick={handleClick}
+        >
           <span></span>
           <span></span>
           <span></span>
@@ -26,11 +35,16 @@ const Navbar = () => {
 
       <div className={mobileMenu ? 'nav-menu activated' : 'nav-menu'}>
         <ul className="nav-menu-items">
-          <li className="navbar-toggle" onClick={handleClick}>
-            {/* <AiOutlineClose className="x-icon" /> */}
-            <p>X</p>
+          {NavbarContent.map((item, index) => {
+            return (
+              <li key={index} className={item.title} onClick={handleClick}>
+                <Link to={item.link}>{item.title}</Link>
+              </li>
+            );
+          })}
+          <li>
+            <button>CLASE DE PRUEBA</button>
           </li>
-          <p>list of items</p>
         </ul>
       </div>
     </nav>
