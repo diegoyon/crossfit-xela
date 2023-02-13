@@ -77,17 +77,13 @@ nav h2 {
   background-color: black;
   color: white;
   width: 100vw;
-  height: 100vh;
-  display: flex;
-  justify-content: center;
+  height: 0px;
+  display: block;
   position: fixed;
-  padding: 2rem;
-  top: -100%;
+  top: 2.7rem;
   left: 0;
-  /* right: -100%; */
-  transition: 350ms;
-  /* transform: translateZ(-10px); */
-  z-index: -1;
+  transition: 550ms;
+  overflow: hidden;
 }
 
 .nav-menu a {
@@ -95,6 +91,6 @@ nav h2 {
 }
 
 .nav-menu.activated {
-  top: 0;
-  transition: 350ms;
+  height: 100vh;
+  transition: 550ms;
 }
