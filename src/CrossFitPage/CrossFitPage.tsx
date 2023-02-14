@@ -1,6 +1,6 @@
 import React from 'react';
 import Home from '../HomePage/section1/Home';
-import CFHome from './section1/CFHome';
+import cfhome from '../images/cfhome.jpg';
 
 const CrossFitPage = () => {
   return (
@@ -8,6 +8,7 @@ const CrossFitPage = () => {
       <Home
         title="CrossFit"
         description="Movimientos funcionales, constantemente variados, ejecutados a alta intensidad."
+        image={cfhome}
       />
     </>
   );
