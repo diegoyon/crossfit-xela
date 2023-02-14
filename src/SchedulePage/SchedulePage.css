@@ -25,16 +25,20 @@
 
 .days,
 .hour {
-  background-color: gainsboro;
+  background-color: var(--color-gray);
   font-weight: 600;
 }
 
 .event {
-  background-color: #41dccd;
+  background-color: #ff530d;
+}
+
+.opengym {
+  background-color: #e80c7a;
 }
 
 .empty {
-  background-color: antiquewhite;
+  background-color: var(--color-gray);
 }
 
 @media (max-width: 640px) {
