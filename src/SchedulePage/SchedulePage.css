@@ -21,6 +21,13 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+
+.grid-item p:last-child {
+  font-size: 0.8rem;
+  font-weight: 300;
 }
 
 .days,
@@ -75,5 +82,11 @@
   .grid-container div:nth-child(8n) {
     order: 6;
     display: none;
+  }
+
+  .grid-item {
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 0 2rem;
   }
 }
