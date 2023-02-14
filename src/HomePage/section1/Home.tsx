@@ -10,7 +10,7 @@ type HomeContent = {
 const Home = (props: HomeContent) => {
   return (
     <section className="home">
-      <img src={props.image} alt="background-image" />
+      <img src={props.image} alt="background" />
       <div className="black-background">
         <div className="content">
           <h1>{props.title}</h1>
