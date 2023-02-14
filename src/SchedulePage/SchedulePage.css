@@ -44,6 +44,14 @@
   background-color: #e80c7a;
 }
 
+.event:hover {
+  background-color: #e82c0c;
+}
+
+.opengym:hover {
+  background-color: #ff0dff;
+}
+
 .empty {
   background-color: var(--color-gray);
 }
