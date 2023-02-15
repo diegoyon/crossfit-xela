@@ -28,8 +28,10 @@ const BenefitCard = (props: BenefitCardInfo) => {
       <div className="image-container">
         <img src={image} />
       </div>
-      <h4>{props.title}</h4>
-      <p>{props.description}</p>
+      <div className="information">
+        <h4>{props.title}</h4>
+        <p>{props.description}</p>
+      </div>
     </div>
   );
 };

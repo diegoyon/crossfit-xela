@@ -15,6 +15,7 @@
   flex-direction: column;
   align-items: center;
   gap: 4rem;
+  width: 90%;
 }
 
 .benefit-card {
@@ -28,17 +29,47 @@
 
 .image-container {
   height: 20rem;
-  width: 13rem;
+}
+
+.information {
+  display: flex;
+  flex-direction: column;
+  gap: 0.7rem;
 }
 
 .benefit-card img {
   height: 100%;
-  width: 100%;
+  width: 80%;
   object-fit: cover;
 }
 
 .benefit-card h4 {
-  font-size: 1.5rem;
+  font-size: 1.8rem;
   font-weight: 800;
   text-transform: uppercase;
+}
+
+@media (min-width: 640px) {
+  .benefit-card {
+    flex-direction: row;
+    justify-content: space-between;
+    width: 100%;
+  }
+
+  .image-container {
+    height: 30vw;
+    max-height: 25rem;
+    flex: 2;
+  }
+
+  .benefit-card img {
+    width: 20vw;
+  }
+  .information {
+    flex: 3;
+  }
+
+  .benefit-card:nth-child(even) div:first-child {
+    order: 2;
+  }
 }
