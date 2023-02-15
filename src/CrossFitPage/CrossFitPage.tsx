@@ -1,10 +1,14 @@
-import React from 'react';
+import React, { useLayoutEffect } from 'react';
 import BenefitCard from '../components/BenefitCard/BenefitCard';
 import BenefitCardContent from '../components/BenefitCard/BenefitCardContent';
 import Home from '../HomePage/section1/Home';
 import cfhome from '../images/cfhome.jpg';
 
 const CrossFitPage = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   return (
     <>
       <Home

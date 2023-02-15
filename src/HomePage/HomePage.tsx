@@ -1,9 +1,13 @@
-import React from 'react';
+import React, { useLayoutEffect } from 'react';
 import Home from './section1/Home';
 import Programs from './section2/Programs';
 import portada from '../images/portada.jpg';
 
 const HomePage = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
+
   return (
     <>
       <Home
