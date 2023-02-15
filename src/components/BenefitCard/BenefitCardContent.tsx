@@ -13,7 +13,7 @@ const BenefitCardContent = [
   {
     title: 'Quema calorías',
     description:
-      'Está científicamente comprobado que CrossFit quem 25-30% más calorías que otros workouts',
+      'Está científicamente comprobado que CrossFit quema 25-30% más calorías que otros workouts',
     images: [
       'https://scontent.fgua3-4.fna.fbcdn.net/v/t39.30808-6/326460315_559185342921768_3669843781449434638_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=lS1E8VV8WZkAX-ckaCu&_nc_ht=scontent.fgua3-4.fna&oh=00_AfALiuy27BYHDjt9sez6EHBjyDvQmrTrvpdhSt_pUFg3lQ&oe=63F140FF',
       'https://scontent.fgua3-5.fna.fbcdn.net/v/t39.30808-6/326186878_665707131969082_7410789772960590065_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=9_FchyUi1hwAX_mH5aP&tn=8zjad3dzAgiHOvpa&_nc_ht=scontent.fgua3-5.fna&oh=00_AfAimdqD0BJ5QOQb9TzXrjjuU2TJ0XUQVXlOqyAw2h_Obw&oe=63F1ACCB',
@@ -24,7 +24,7 @@ const BenefitCardContent = [
   {
     title: 'Incrementa tu musculatura',
     description:
-      'Entrenos de fuerza y de alta intensidad se traduce a sentirse y ver más fuerte.',
+      'Entrenos de fuerza y de alta intensidad se traduce a sentirse y verse más fuerte.',
     images: [
       'https://scontent.fgua3-3.fna.fbcdn.net/v/t39.30808-6/326115982_745827570209284_6092870793117221169_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=8eFghwQwXVEAX86sFrr&_nc_ht=scontent.fgua3-3.fna&oh=00_AfCCDWWcH3drKa6n-fpcNQXECFporwzAQRrARPmJiqnNTg&oe=63F26A32',
       'https://scontent.fgua3-3.fna.fbcdn.net/v/t39.30808-6/325735664_587265169877846_620424331219953931_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=RG_s6Ve4H1EAX-CLELQ&_nc_ht=scontent.fgua3-3.fna&oh=00_AfBtBO1x5-Efo79D_Pqq_9THZUbZ2Xkxuo60z8qYd-LQBQ&oe=63F283C5',
