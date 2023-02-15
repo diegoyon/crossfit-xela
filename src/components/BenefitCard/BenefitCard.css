@@ -10,6 +10,13 @@
   margin-bottom: 1rem;
 }
 
+.benefits-list {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 4rem;
+}
+
 .benefit-card {
   display: flex;
   flex-direction: column;
@@ -25,7 +32,6 @@
 }
 
 .benefit-card img {
-  /* height: 20rem; */
   height: 100%;
   width: 100%;
   object-fit: cover;

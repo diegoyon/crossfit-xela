@@ -1,5 +1,6 @@
 import React from 'react';
 import BenefitCard from '../components/BenefitCard/BenefitCard';
+import BenefitCardContent from '../components/BenefitCard/BenefitCardContent';
 import Home from '../HomePage/section1/Home';
 import cfhome from '../images/cfhome.jpg';
 
@@ -13,7 +14,16 @@ const CrossFitPage = () => {
       />
       <section className="benefits">
         <h3>Beneficios de CrossFit</h3>
-        <BenefitCard />
+        <div className="benefits-list">
+          {BenefitCardContent.map((card) => (
+            <BenefitCard
+              key={card.title}
+              title={card.title}
+              description={card.description}
+              images={card.images}
+            />
+          ))}
+        </div>
       </section>
     </>
   );
