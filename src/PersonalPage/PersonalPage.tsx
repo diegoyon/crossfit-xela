@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useLayoutEffect } from 'react';
 import Home from '../HomePage/section1/Home';
 import personalhome from '../images/personalhome.jpg';
 import { Swiper, SwiperSlide } from 'swiper/react';
@@ -15,6 +15,9 @@ import personal1 from '../images/personal1.jpg';
 import personal2 from '../images/personal2.jpg';
 
 const PersonalPage = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <>
       <Home

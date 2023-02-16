@@ -66,7 +66,6 @@ const OpenGymPage = () => {
           También contamos con horario de Open Gym de lunes a sábado de 10:30am
           a 12:30pm en dónde podrás hacer uso de todo el gimnasio.
         </p>
-        <p>¡Quédate todo el tiempo que quieras!</p>
       </div>
     </>
   );
