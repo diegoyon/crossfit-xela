@@ -1,0 +1,5 @@
+.price-list {
+  display: flex;
+  margin: 10rem auto;
+  width: 80%;
+}
