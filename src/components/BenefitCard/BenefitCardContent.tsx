@@ -33,7 +33,7 @@ const BenefitCardContent = [
     ],
   },
   {
-    title: 'Obtén más resistencia',
+    title: 'Aumenta tu resistencia',
     description:
       'CrossFit está probado que conduce a eficiencia cardiovascular y un mejor rendimiento.',
     images: [
