@@ -11,6 +11,10 @@ import 'swiper/css/navigation';
 // import required modules
 import { Pagination, Navigation } from 'swiper';
 
+import open1 from '../images/open1.jpeg';
+import open2 from '../images/open2.jpeg';
+import open3 from '../images/open3.jpeg';
+
 const OpenGymPage = () => {
   useLayoutEffect(() => {
     window.scrollTo(0, 0);
@@ -37,15 +41,15 @@ const OpenGymPage = () => {
             modules={[Pagination, Navigation]}
             className="mySwiper"
           >
-            <SwiperSlide>Slide 1</SwiperSlide>
-            <SwiperSlide>Slide 2</SwiperSlide>
-            <SwiperSlide>Slide 3</SwiperSlide>
-            <SwiperSlide>Slide 4</SwiperSlide>
-            <SwiperSlide>Slide 5</SwiperSlide>
-            <SwiperSlide>Slide 6</SwiperSlide>
-            <SwiperSlide>Slide 7</SwiperSlide>
-            <SwiperSlide>Slide 8</SwiperSlide>
-            <SwiperSlide>Slide 9</SwiperSlide>
+            <SwiperSlide>
+              <img src={open1} />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={open2} />
+            </SwiperSlide>
+            <SwiperSlide>
+              <img src={open3} />
+            </SwiperSlide>
           </Swiper>
         </div>
         <h3>Open Gym</h3>

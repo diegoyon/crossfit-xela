@@ -14,14 +14,8 @@
 
 .swiper-container {
   position: relative;
-  height: 20rem;
-  background: #eee;
-  font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
-  font-size: 14px;
-  color: #000;
-  margin: 0;
-  padding: 0;
-  width: 80%;
+  height: 40vw;
+  width: 90%;
 }
 
 .swiper {
