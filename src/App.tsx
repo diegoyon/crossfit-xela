@@ -6,6 +6,7 @@ import HomePage from './HomePage/HomePage';
 import CrossFitPage from './CrossFitPage/CrossFitPage';
 import SchedulePage from './SchedulePage/SchedulePage';
 import OpenGymPage from './OpenGymPage/OpenGymPage';
+import PersonalPage from './PersonalPage/PersonalPage';
 
 const App = () => {
   return (
@@ -17,6 +18,7 @@ const App = () => {
           <Route path="/crossfit" element={<CrossFitPage />} />
           <Route path="/horarios" element={<SchedulePage />} />
           <Route path="/opengym" element={<OpenGymPage />} />
+          <Route path="/personal" element={<PersonalPage />} />
         </Routes>
       </main>
       <Footer />
