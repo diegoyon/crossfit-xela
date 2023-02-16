@@ -9,7 +9,7 @@ import 'swiper/css/pagination';
 import 'swiper/css/navigation';
 
 // import required modules
-import { Pagination, Navigation } from 'swiper';
+import { Autoplay, Pagination, Navigation } from 'swiper';
 
 import open1 from '../images/open1.jpeg';
 import open2 from '../images/open2.jpeg';
@@ -33,12 +33,16 @@ const OpenGymPage = () => {
           <Swiper
             slidesPerView={1}
             spaceBetween={30}
+            autoplay={{
+              delay: 2500,
+              disableOnInteraction: true,
+            }}
             loop={true}
             pagination={{
               clickable: true,
             }}
             navigation={true}
-            modules={[Pagination, Navigation]}
+            modules={[Autoplay, Pagination, Navigation]}
             className="mySwiper"
           >
             <SwiperSlide>
