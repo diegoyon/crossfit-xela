@@ -18,13 +18,17 @@ const OpenGymPage = () => {
       <div className="opengym-card">
         <h3>Open Gym</h3>
         <p>
-          Ofrecemos Open Gym en todo nuestros horarios incluso durante clases,
-          ya sea que quieras hacer extra antes o después de la clase o quieras
-          hacer tu propia progra.
+          Ofrecemos Open Gym en todos nuestros horarios incluso durante clases,
+          ya sea que quieras hacer ejercicios extra antes o después de la clase
+          o quieras hacer tu propia progra.
         </p>
         <p>
           Hemos dedicado 60 metros cuadrado de nuestras instalaciones con todo
           el equipo necesario.
+        </p>
+        <p>
+          También contamos con horario de Open Gym de lunes a sábado de 10:30am
+          a 12:30pm en dónde podrás hacer uso de todo el gimnasio.
         </p>
         <p>¡Quédate todo el tiempo que quieras!</p>
       </div>
