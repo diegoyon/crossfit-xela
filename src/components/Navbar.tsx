@@ -43,7 +43,9 @@ const Navbar = () => {
             );
           })}
           <li>
-            <button>CLASE DE PRUEBA</button>
+            <a href="https://wa.link/crossfitxela" target="_blank">
+              <button>CLASE DE PRUEBA</button>
+            </a>
           </li>
         </ul>
       </div>

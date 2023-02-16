@@ -15,8 +15,9 @@ const Home = (props: HomeContent) => {
         <div className="content">
           <h1>{props.title}</h1>
           <p>{props.description}</p>
-
-          <button>CLASE DE PRUEBA</button>
+          <a href="https://wa.link/crossfitxela" target="_blank">
+            <button>CLASE DE PRUEBA</button>
+          </a>
         </div>
       </div>
     </section>
