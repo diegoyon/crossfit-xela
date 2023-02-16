@@ -1,6 +1,61 @@
 .price-card {
-  border: 1px solid black;
+  /* border: 1px solid black; */
   padding: 2rem;
   display: flex;
   flex-direction: column;
+  align-items: center;
+  text-align: center;
+  gap: 2rem;
+  width: 20rem;
+  background-color: #6bc4fc;
+  /* color: white; */
+  border-radius: 1rem;
+  box-shadow: rgba(0, 0, 0, 0.55) 2.95px 2.95px 2.6px;
+}
+
+.price-card h3 {
+  font-size: 1.5rem;
+  font-weight: 400;
+  text-transform: uppercase;
+  /* margin-bottom: 1rem; */
+}
+
+.price-card h4 {
+  font-size: 2.5rem;
+}
+
+.monthly {
+  font-size: 1rem;
+  font-weight: 300;
+}
+
+.price-card p {
+  /* line-height: 0rem; */
+  font-size: 1rem;
+}
+
+.price-card h5 {
+  font-size: 1rem;
+  align-self: flex-start;
+}
+
+.price-card ul {
+  text-align: start;
+  display: flex;
+  flex-direction: column;
+}
+
+.price-card ul li {
+  border-top: 1px solid black;
+  padding: 0.2rem;
+  font-size: 0.75rem;
+}
+
+.price-card ul li:first-child {
+  border: none;
+  font-weight: 700;
+}
+
+.price-card ul li:nth-child(2) {
+  border: none;
 }
