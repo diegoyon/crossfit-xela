@@ -19,10 +19,10 @@ const NavbarContent = [
     title: 'Horarios',
     link: '/horarios',
   },
-  {
-    title: 'Precios',
-    link: '/precios',
-  },
+  // {
+  //   title: 'Precios',
+  //   link: '/precios',
+  // },
 ];
 
 export default NavbarContent;

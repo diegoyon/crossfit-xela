@@ -98,3 +98,9 @@
     padding: 0 2rem;
   }
 }
+
+@media (min-width: 1024px) {
+  .schedule {
+    margin-top: 6.5rem;
+  }
+}

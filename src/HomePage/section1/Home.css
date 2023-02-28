@@ -60,6 +60,10 @@
   animation: 0.8s ease-in 1s forwards appear;
 }
 
+.content a {
+  width: fit-content;
+}
+
 .content button {
   padding: 0.6rem 1.2rem;
   width: fit-content;

@@ -53,6 +53,25 @@ const Navbar = () => {
           </li>
         </ul>
       </div>
+
+      <ul className="desktop-links">
+        {NavbarContent.map((item, index) => {
+          return (
+            <li key={index} className={item.title} onClick={handleClick}>
+              <Link to={item.link}>{item.title}</Link>
+            </li>
+          );
+        })}
+        <li>
+          <a
+            href="https://wa.link/crossfitxela"
+            target="_blank"
+            rel="noreferrer"
+          >
+            <button>CLASE DE PRUEBA</button>
+          </a>
+        </li>
+      </ul>
     </nav>
   );
 };
