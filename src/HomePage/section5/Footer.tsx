@@ -8,8 +8,20 @@ const Footer = () => {
     <footer className="footer">
       <img src={cfxela} alt="logo blanco" />
       <div className="social">
-        <BsFacebook className="icon" size={25} />
-        <BsInstagram className="icon" size={25} />
+        <a
+          href="https://www.facebook.com/crossfitxela"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <BsFacebook className="icon" size={25} />
+        </a>
+        <a
+          href="https://www.instagram.com/crossfitxela"
+          target="_blank"
+          rel="noreferrer"
+        >
+          <BsInstagram className="icon" size={25} />
+        </a>
       </div>
       <p>2023 CrossFit Xela. All rights reserved.</p>
     </footer>
