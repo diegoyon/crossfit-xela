@@ -6,7 +6,7 @@ import Cards from '../../components/Cards';
 const Programs = () => {
   return (
     <section className="programs">
-      <h2>Servicios</h2>
+      <h2>¿QUÉ OFRECEMOS?</h2>
       <p>
         Sin importar tu edad o nivel de fitness, nosotros te ayudamos a mejorar
         tu salud.

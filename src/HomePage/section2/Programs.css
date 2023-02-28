@@ -6,13 +6,19 @@
 }
 
 .programs h2 {
-  font-size: 2rem;
+  font-family: 'League Spartan', sans-serif;
+  color: var(--color-red);
+  font-size: 1rem;
+  font-weight: 500;
 }
 
 .programs > p {
-  width: 70%;
+  font-family: 'League Spartan', sans-serif;
+  width: 80%;
+  font-size: 1.4rem;
   text-align: center;
-  margin: 1rem 0;
+  margin: 1rem;
+  text-transform: uppercase;
 }
 
 .program-card {
@@ -54,12 +60,13 @@
   padding: 1.2rem;
   display: flex;
   flex-direction: column;
-  gap: 0.8rem;
+  gap: 0.5rem;
 }
 
 .card-info h3 {
+  font-family: 'League Spartan', sans-serif;
   text-transform: uppercase;
-  font-size: 1.3rem;
+  font-size: 1.5rem;
   color: white;
 }
 
@@ -74,8 +81,9 @@
   text-transform: uppercase;
   padding: 1rem 1.8rem;
   background-color: transparent;
+  /* background-color: var(--color-red); */
   color: white;
-  border: 3px solid var(--color-red);
+  border: 2px solid var(--color-red);
   font-weight: 700;
   border-radius: 5px;
   width: 100%;

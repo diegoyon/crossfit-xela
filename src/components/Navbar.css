@@ -109,8 +109,8 @@ nav h2 {
   width: fit-content;
   background-color: transparent;
   color: white;
-  border: 3px solid var(--color-red);
+  border: 2px solid var(--color-red);
   font-weight: 600;
-  border-radius: 5px;
+  border-radius: 50px;
   font-size: 1rem;
 }
