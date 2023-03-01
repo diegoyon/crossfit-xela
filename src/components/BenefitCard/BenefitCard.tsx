@@ -31,10 +31,9 @@ const BenefitCard = (props: BenefitCardInfo) => {
         <img src={image} />
       </div>
       <div className="information">
-        {/* <h4>{props.title}</h4> */}
         <div className="title">
-          {props.title.split(' ').map((word) => {
-            return <h4>{word}</h4>;
+          {props.title.split(' ').map((word, index) => {
+            return <h4 key={index}>{word}</h4>;
           })}
         </div>
         <p>{props.description}</p>
