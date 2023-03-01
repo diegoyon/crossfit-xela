@@ -5,6 +5,8 @@
 .benefits h3 {
   font-family: 'League Spartan', sans-serif;
   text-transform: uppercase;
+  width: 90%;
+  text-align: center;
   font-size: 1.5rem;
   color: var(--color-red);
   letter-spacing: -1px;
