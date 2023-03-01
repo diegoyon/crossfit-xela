@@ -12,8 +12,8 @@ const BenefitCard = (props: BenefitCardInfo) => {
 
   // let words: string[];
 
-  let counter = 0;
   useEffect(() => {
+    let counter = 0;
     const interval = setInterval(() => {
       if (counter < props.images.length - 1) {
         counter++;
@@ -23,12 +23,12 @@ const BenefitCard = (props: BenefitCardInfo) => {
       setImage(props.images[counter]);
     }, 1500);
     return () => clearInterval(interval);
-  }, []);
+  }, [props.images]);
 
   return (
     <div className="benefit-card">
       <div className="image-container">
-        <img src={image} />
+        <img src={image} alt={image} />
       </div>
       <div className="information">
         <div className="title">
