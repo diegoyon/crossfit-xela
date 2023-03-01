@@ -3,6 +3,7 @@ import BenefitCard from '../components/BenefitCard/BenefitCard';
 import BenefitCardContent from '../components/BenefitCard/BenefitCardContent';
 import Home from '../HomePage/section1/Home';
 import cfhome from '../images/cfhome.jpg';
+import './CrossFitPage.css';
 
 const CrossFitPage = () => {
   useLayoutEffect(() => {
@@ -17,7 +18,7 @@ const CrossFitPage = () => {
         image={cfhome}
       />
       <section className="benefits">
-        <h3>Beneficios de CrossFit</h3>
+        <h3>¿Por qué entrenar en CrossFit Xela?</h3>
         <div className="benefits-list">
           {BenefitCardContent.map((card) => (
             <BenefitCard

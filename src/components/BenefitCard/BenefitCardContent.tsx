@@ -1,8 +1,8 @@
 const BenefitCardContent = [
   {
-    title: 'Mejora tu metabolismo',
+    title: 'Entrenos para la vida cotidiana',
     description:
-      'CrossFit incrementa tu metabolismo durante y después de cada workout.',
+      'Siéntete más fuerte y listo para enfrentar la vida. En CrossFit Xela practicamos movimientos que se traducen directamente en la vida cotidiana, haciendo que actividades como llevar la compras, levantar a tu hijo, correr o incluso subir escaleras sean más fáciles.',
     images: [
       'https://scontent.fgua3-4.fna.fbcdn.net/v/t39.30808-6/329704789_480772610747568_3053823986333748116_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=730e14&_nc_ohc=BMJ5Omm4Nd4AX-OGDzu&_nc_ht=scontent.fgua3-4.fna&oh=00_AfCpN303T1XD-nubbH_DZqTQxTlGyUyYP_Id7VkdqJtu_Q&oe=63F13603',
       'https://scontent.fgua3-5.fna.fbcdn.net/v/t39.30808-6/310233882_544616244331070_5206570734932228648_n.jpg?_nc_cat=107&ccb=1-7&_nc_sid=730e14&_nc_ohc=2LPTOvvzYRwAX9xm2dr&_nc_ht=scontent.fgua3-5.fna&oh=00_AfCxjsveFwqR2v6aEBoI_XY713XoPN-hgM0Ntsj8Blt0Mg&oe=63F1B865',
@@ -11,9 +11,9 @@ const BenefitCardContent = [
     ],
   },
   {
-    title: 'Quema calorías',
+    title: 'Nos enfocamos en la técnica',
     description:
-      'Está científicamente comprobado que CrossFit quema 25-30% más calorías que otros workouts',
+      'Nuestro equipo de entrenadores son los mejores en la industria. Tienen certificaciones de CrossFit L1 para ofrecerte el entrenamiento más seguro y eficiente. También te demuestran la técnica correcta de los movimientos para que entrenes de forma adecuada y de acuerdo a tu nivel.',
     images: [
       'https://scontent.fgua3-4.fna.fbcdn.net/v/t39.30808-6/326460315_559185342921768_3669843781449434638_n.jpg?_nc_cat=103&ccb=1-7&_nc_sid=730e14&_nc_ohc=lS1E8VV8WZkAX-ckaCu&_nc_ht=scontent.fgua3-4.fna&oh=00_AfALiuy27BYHDjt9sez6EHBjyDvQmrTrvpdhSt_pUFg3lQ&oe=63F140FF',
       'https://scontent.fgua3-5.fna.fbcdn.net/v/t39.30808-6/326186878_665707131969082_7410789772960590065_n.jpg?_nc_cat=104&ccb=1-7&_nc_sid=730e14&_nc_ohc=9_FchyUi1hwAX_mH5aP&tn=8zjad3dzAgiHOvpa&_nc_ht=scontent.fgua3-5.fna&oh=00_AfAimdqD0BJ5QOQb9TzXrjjuU2TJ0XUQVXlOqyAw2h_Obw&oe=63F1ACCB',
@@ -22,23 +22,14 @@ const BenefitCardContent = [
     ],
   },
   {
-    title: 'Incrementa tu musculatura',
+    title: 'Diferentes entrenamientos diarios',
     description:
-      'Entrenos de fuerza y de alta intensidad se traduce a sentirse y verse más fuerte.',
+      'Nos gusta mantener las cosas interesantes. Ningún día es igual. Espera ejercicios variados y movimientos funcionales para un entrenamiento efectivo de todo el cuerpo. ¿Mencionamos barras, pesas rusas, mancuernas, innumerables otros equipos como pelotas medicinales, cuerdas y, por supuesto, nuestras máquinas cardiovasculares: bicicletas de asalto y máquinas de remo y esquí para el entrenamiento más eficiente posible?',
     images: [
       'https://scontent.fgua3-3.fna.fbcdn.net/v/t39.30808-6/326115982_745827570209284_6092870793117221169_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=8eFghwQwXVEAX86sFrr&_nc_ht=scontent.fgua3-3.fna&oh=00_AfCCDWWcH3drKa6n-fpcNQXECFporwzAQRrARPmJiqnNTg&oe=63F26A32',
       'https://scontent.fgua3-3.fna.fbcdn.net/v/t39.30808-6/325735664_587265169877846_620424331219953931_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=RG_s6Ve4H1EAX-CLELQ&_nc_ht=scontent.fgua3-3.fna&oh=00_AfBtBO1x5-Efo79D_Pqq_9THZUbZ2Xkxuo60z8qYd-LQBQ&oe=63F283C5',
       'https://scontent.fgua3-4.fna.fbcdn.net/v/t39.30808-6/293323015_5259356864140312_8046930408632085_n.jpg?_nc_cat=100&ccb=1-7&_nc_sid=a26aad&_nc_ohc=rh7JQBC2M8YAX9bQ3gP&tn=8zjad3dzAgiHOvpa&_nc_ht=scontent.fgua3-4.fna&oh=00_AfCifThNgNl_P6wntudf2lnJvygunRreb-yDTfKLqMjKNw&oe=63F1F48A',
       'https://scontent.fgua3-3.fna.fbcdn.net/v/t39.30808-6/275287432_4902070439868958_5025419497595336417_n.jpg?_nc_cat=105&ccb=1-7&_nc_sid=730e14&_nc_ohc=4lSn80PFtjkAX9kjnHl&_nc_oc=AQl1u0gbZ8MXUYVknhGoOSCknUXu_GM0W5lcyc2Id-AHXu1UGxhahoeWzoEIrH8vVKQ&_nc_ht=scontent.fgua3-3.fna&oh=00_AfBPqvfJPLtikk5Gqt4dvUIcJAAOWXUqF4YSiwmvOxW5Ag&oe=63F2782C',
-    ],
-  },
-  {
-    title: 'Aumenta tu resistencia',
-    description:
-      'CrossFit está probado que conduce a eficiencia cardiovascular y un mejor rendimiento.',
-    images: [
-      'https://scontent.fgua3-3.fna.fbcdn.net/v/t39.30808-6/323012816_1140023956646140_3041622526474551380_n.jpg?_nc_cat=109&ccb=1-7&_nc_sid=730e14&_nc_ohc=Shy0DAgCRwgAX-3mtps&tn=8zjad3dzAgiHOvpa&_nc_ht=scontent.fgua3-3.fna&oh=00_AfD_4z0QRsL5fQI1RJO_uG_v06exhU9fcRSP0QN45Ir4rQ&oe=63F1539A',
-      'https://scontent.fgua3-3.fna.fbcdn.net/v/t39.30808-6/323004390_412258237765810_8967545138055802237_n.jpg?_nc_cat=108&ccb=1-7&_nc_sid=730e14&_nc_ohc=771emlLPZCcAX_13wgl&_nc_ht=scontent.fgua3-3.fna&oh=00_AfCP25bBagYIAPlCM9_aaQBAtH3o3NXuhpMruRhHqIVvDQ&oe=63F2DEC1',
     ],
   },
 ];

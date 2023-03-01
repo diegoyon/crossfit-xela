@@ -10,6 +10,8 @@ type BenefitCardInfo = {
 const BenefitCard = (props: BenefitCardInfo) => {
   const [image, setImage] = useState(props.images[0]);
 
+  // let words: string[];
+
   let counter = 0;
   useEffect(() => {
     const interval = setInterval(() => {
@@ -29,7 +31,12 @@ const BenefitCard = (props: BenefitCardInfo) => {
         <img src={image} />
       </div>
       <div className="information">
-        <h4>{props.title}</h4>
+        {/* <h4>{props.title}</h4> */}
+        <div className="title">
+          {props.title.split(' ').map((word) => {
+            return <h4>{word}</h4>;
+          })}
+        </div>
         <p>{props.description}</p>
       </div>
     </div>
