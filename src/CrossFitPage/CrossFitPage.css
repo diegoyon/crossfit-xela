@@ -1,7 +1,18 @@
+.benefits {
+  margin: 6rem 0;
+}
+
 .benefits h3 {
   font-family: 'League Spartan', sans-serif;
   text-transform: uppercase;
   font-size: 1.5rem;
   color: var(--color-red);
   letter-spacing: -1px;
+  margin-bottom: 3rem;
+}
+
+@media (min-width: 768px) {
+  .benefits h3 {
+    font-size: 2rem;
+  }
 }

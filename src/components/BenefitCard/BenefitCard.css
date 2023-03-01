@@ -39,8 +39,9 @@
 
 .benefit-card img {
   height: 100%;
-  width: 80%;
+  /* width: 80%; */
   object-fit: cover;
+  aspect-ratio: 3 / 4;
 }
 
 .benefit-card h4 {
@@ -50,7 +51,7 @@
   text-transform: uppercase;
   font-family: 'League Spartan', sans-serif;
   letter-spacing: -3px;
-  margin-left: 0.5rem;
+  margin-right: 0.5rem;
 }
 
 .benefit-card p {
@@ -76,27 +77,50 @@
   color: red;
 }
 
-@media (min-width: 640px) {
+@media (min-width: 768px) {
+  .benefits-list {
+    gap: 8rem;
+  }
   .benefit-card {
     flex-direction: row;
     justify-content: space-between;
-    width: 100%;
+    width: 95%;
+  }
+
+  .benefit-card .information {
+    text-align: start;
+  }
+
+  .benefit-card .title {
+    justify-content: flex-start;
+  }
+
+  .benefit-card .title h4 {
+    font-size: 3.5rem;
+    line-height: 4rem;
   }
 
   .image-container {
-    height: 30vw;
-    max-height: 25rem;
+    height: 42vw;
+    max-height: 28rem;
     flex: 2;
   }
 
   .benefit-card img {
-    width: 20vw;
+    /* width: 32vw; */
   }
   .information {
     flex: 3;
   }
 
-  .benefit-card:nth-child(even) div:last-child {
+  .benefit-card:nth-child(odd) div:last-child {
     order: -1;
+  }
+}
+
+@media (min-width: 1024px) {
+  .benefit-card {
+    width: 80%;
+    gap: 5rem;
   }
 }
