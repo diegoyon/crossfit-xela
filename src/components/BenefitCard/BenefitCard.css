@@ -39,7 +39,6 @@
 
 .benefit-card img {
   height: 100%;
-  /* width: 80%; */
   object-fit: cover;
   aspect-ratio: 3 / 4;
 }

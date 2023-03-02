@@ -13,7 +13,7 @@ const BenefitCardContent = [
   {
     title: 'Entrenos para la vida cotidiana',
     description:
-      'Siéntete más fuerte y listo para enfrentar la vida. En CrossFit Xela practicamos movimientos que se traducen directamente a la vida cotidiana, haciendo que actividades como llevar la compras, cargar a tu hijo/a, correr o incluso subir gradas sean más fáciles.',
+      'Siéntete más fuerte y listo para enfrentar la vida. En CrossFit Xela practicamos movimientos que se traducen directamente a la vida cotidiana, haciendo que actividades como llevar las compras, cargar a tu hijo/a, correr o incluso subir gradas sean más fáciles.',
     images: [benefit11, benefit12, benefit13, benefit14],
   },
   {

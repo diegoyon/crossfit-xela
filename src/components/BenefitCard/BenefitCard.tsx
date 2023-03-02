@@ -10,8 +10,6 @@ type BenefitCardInfo = {
 const BenefitCard = (props: BenefitCardInfo) => {
   const [image, setImage] = useState(props.images[0]);
 
-  // let words: string[];
-
   useEffect(() => {
     let counter = 0;
     const interval = setInterval(() => {

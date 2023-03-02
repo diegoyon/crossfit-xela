@@ -8,12 +8,12 @@ const NavbarContent = [
     link: '/crossfit',
   },
   {
-    title: 'Open Gym',
-    link: '/opengym',
-  },
-  {
     title: 'Clases Personales',
     link: '/personal',
+  },
+  {
+    title: 'Open Gym',
+    link: '/opengym',
   },
   {
     title: 'Horarios',

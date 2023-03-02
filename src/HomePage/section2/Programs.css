@@ -51,7 +51,7 @@
 }
 
 .services .program-card:nth-child(3) {
-  background-image: url(../../images/hiit.jpg);
+  background-image: url(../../images/open2.jpeg);
 }
 
 .card-info {
@@ -92,6 +92,15 @@
 .card-info button:hover {
   background-color: var(--color-red);
   transition-duration: 0.5s;
+}
+
+.hidden {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.show {
+  opacity: 1;
 }
 
 @media (min-width: 1024px) {
