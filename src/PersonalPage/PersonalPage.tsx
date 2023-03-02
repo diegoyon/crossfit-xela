@@ -22,7 +22,7 @@ const PersonalPage = () => {
     <>
       <Home
         title="Clases Personales"
-        description="Buscas clases personalizadas diseñadas para tus necesidades y metas específicas. Maximiza tus resultados trabajando junto con un de nuestros entrenadores certificados con años de experiencia."
+        description="Buscas clases personalizadas diseñadas para tus necesidades y metas específicas. Maximiza tus resultados trabajando junto con uno de nuestros entrenadores certificados con años de experiencia."
         image={personalhome}
       />
 

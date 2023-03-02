@@ -14,7 +14,7 @@ const CardsContent = [
   {
     title: 'Open Gym',
     description:
-      'Estás interesado en hacer tus propias ejercicios y rutinas. Tenemos un espacio dedicado para tí.',
+      'Estás interesado en hacer tus propias ejercicios y rutinas. Tenemos un espacio dedicado para ti.',
     link: '/opengym',
   },
 ];
