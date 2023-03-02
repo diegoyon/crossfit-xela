@@ -1,6 +1,6 @@
 const CardsContent = [
   {
-    title: 'CrossFit',
+    title: 'Clases de CrossFit',
     description:
       'Forma parte de nuestra comunidad uniéndote a nuestras clases grupales que consisten en ejercicios funcionales y constantemente variados.',
     link: '/crossfit',

@@ -4,7 +4,7 @@ const NavbarContent = [
     link: '/',
   },
   {
-    title: 'CrossFit',
+    title: 'Clases de CrossFit',
     link: '/crossfit',
   },
   {

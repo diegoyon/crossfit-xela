@@ -13,7 +13,7 @@ const CrossFitPage = () => {
   return (
     <>
       <Home
-        title="CrossFit"
+        title="Clases de CrossFit"
         description="Ya sea que seas nuevo en el mundo del fitness o que vas al gimnasio desde hace mucho
         tiempo, CrossFit es para ti. Millones de personas de todos los orígenes, edades y habilidades
         confían en CrossFit y por una buena razón: funciona."
