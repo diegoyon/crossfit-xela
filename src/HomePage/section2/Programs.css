@@ -47,11 +47,11 @@
 }
 
 .services .program-card:nth-child(2) {
-  background-image: url(../../images/hiit.jpg);
+  background-image: url(../../images/personal.jpg);
 }
 
 .services .program-card:nth-child(3) {
-  background-image: url(../../images/personal.jpg);
+  background-image: url(../../images/hiit.jpg);
 }
 
 .card-info {

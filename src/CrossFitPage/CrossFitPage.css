@@ -8,9 +8,12 @@
   width: 90%;
   text-align: center;
   font-size: 1.5rem;
-  color: var(--color-red);
-  letter-spacing: -1px;
+  letter-spacing: -2px;
   margin-bottom: 3rem;
+}
+
+.benefits h3 span {
+  color: var(--color-red);
 }
 
 @media (min-width: 768px) {

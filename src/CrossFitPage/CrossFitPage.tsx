@@ -14,11 +14,15 @@ const CrossFitPage = () => {
     <>
       <Home
         title="CrossFit"
-        description="Movimientos funcionales, constantemente variados, ejecutados a alta intensidad."
+        description="Ya sea que seas nuevo en el mundo del fitness o que vas al gimnasio desde hace mucho
+        tiempo, CrossFit es para ti. Millones de personas de todos los orígenes, edades y habilidades
+        confían en CrossFit y por una buena razón: funciona."
         image={cfhome}
       />
       <section className="benefits">
-        <h3>¿Por qué entrenar en CrossFit Xela?</h3>
+        <h3>
+          ¿Por qué entrenar en <span>CrossFit Xela</span>?
+        </h3>
         <div className="benefits-list">
           {BenefitCardContent.map((card) => (
             <BenefitCard
