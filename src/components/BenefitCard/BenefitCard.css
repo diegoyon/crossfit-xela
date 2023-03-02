@@ -55,7 +55,7 @@
 }
 
 .benefit-card p {
-  font-size: 0.9rem;
+  font-size: 1rem;
   line-height: 1.5rem;
 }
 
@@ -119,5 +119,18 @@
   .benefit-card {
     width: 80%;
     gap: 5rem;
+  }
+}
+
+@media (min-width: 1536px) {
+  .benefit-card .title h4 {
+    font-size: 6rem;
+    line-height: 5rem;
+    margin-right: 2rem;
+  }
+
+  .benefit-card p {
+    font-size: 1.5rem;
+    line-height: 2rem;
   }
 }
