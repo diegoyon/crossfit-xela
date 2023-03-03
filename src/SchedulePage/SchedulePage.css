@@ -64,16 +64,17 @@
 .opengym {
   border: 2px solid;
   border-image: linear-gradient(190deg, #19a6ff, black) 1;
+
   color: white;
   font-weight: 700;
 }
 
 .event:hover {
-  background-color: var(--color-red);
+  background-image: linear-gradient(190deg, var(--color-red), black);
 }
 
 .opengym:hover {
-  background-color: #19a6ff;
+  background-image: linear-gradient(190deg, #19a6ff, black);
 }
 
 .empty {
