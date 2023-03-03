@@ -9,7 +9,7 @@ const SchedulePage = () => {
       <p>Sábados: 7:00am - 12:30pm</p>
 
       <div className="grid-container">
-        <div className="grid-item days"></div>
+        <div className="grid-item days empty"></div>
         <div className="grid-item days">Lunes</div>
         <div className="grid-item days">Martes</div>
         <div className="grid-item days">Miércoles</div>

@@ -6,6 +6,12 @@
   flex-direction: column;
   text-align: center;
   align-items: center;
+  background-color: black;
+}
+
+.schedule h3,
+.schedule p {
+  color: white;
 }
 
 .grid-container {
@@ -32,28 +38,48 @@
 
 .days,
 .hour {
-  background-color: var(--color-gray);
+  /* background-color: var(--color-gray); */
+  color: white;
+  border: 2px solid;
+  border-image: linear-gradient(190deg, white, black) 1;
   font-weight: 600;
 }
 
+/* .event {
+  border: 2px solid var(--color-red);
+} */
+
+/* .opengym {
+  border: 2px solid black;
+} */
+
 .event {
-  background-color: #ff530d;
+  border: 2px solid;
+  border-image: linear-gradient(190deg, var(--color-red), black) 1;
+  color: white;
+  font-weight: 700;
+  /* border-radius: 100px; */
 }
 
 .opengym {
-  background-color: #19a6ff;
+  border: 2px solid;
+  border-image: linear-gradient(190deg, #19a6ff, black) 1;
+  color: white;
+  font-weight: 700;
 }
 
 .event:hover {
-  background-color: #e82c0c;
+  background-color: var(--color-red);
 }
 
 .opengym:hover {
-  background-color: #0971b3;
+  background-color: #19a6ff;
 }
 
 .empty {
-  background-color: var(--color-gray);
+  /* background-color: var(--color-gray); */
+  background-color: black;
+  border: none;
 }
 
 @media (max-width: 640px) {
@@ -69,7 +95,7 @@
     display: none;
   }
 
-  .grid-container div:nth-child(8n + 2) {
+  /* .grid-container div:nth-child(8n + 2) {
     order: 0;
   }
   .grid-container div:nth-child(8n + 3) {
@@ -90,6 +116,41 @@
   .grid-container div:nth-child(8n) {
     order: 6;
     display: none;
+  } */
+
+  .grid-container div {
+    display: none;
+  }
+
+  .grid-container div:nth-child(2) {
+    justify-content: flex-start;
+  }
+
+  .grid-container div:nth-child(2)::after {
+    content: 'a Viernes';
+  }
+
+  .grid-container div:nth-child(2),
+  .grid-container div:nth-child(10),
+  .grid-container div:nth-child(18),
+  .grid-container div:nth-child(26),
+  .grid-container div:nth-child(42),
+  .grid-container div:nth-child(58),
+  .grid-container div:nth-child(66),
+  .grid-container div:nth-child(74),
+  .grid-container div:nth-child(82),
+  .grid-container div:nth-child(90),
+  .grid-container div:nth-child(98) {
+    display: flex;
+    order: 1;
+  }
+
+  .grid-container div:nth-child(7),
+  .grid-container div:nth-child(39),
+  .grid-container div:nth-child(55),
+  .grid-container div:nth-child(59) {
+    display: flex;
+    order: 2;
   }
 
   .grid-item {
@@ -101,6 +162,6 @@
 
 @media (min-width: 1024px) {
   .schedule {
-    margin-top: 6.5rem;
+    margin-top: 5rem;
   }
 }
