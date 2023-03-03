@@ -3,7 +3,7 @@
   flex-direction: column;
   text-align: center;
   align-items: center;
-  width: 80%;
+  width: 90%;
   margin: 2rem auto;
   gap: 2rem;
 }
@@ -14,8 +14,8 @@
 
 .swiper-container {
   position: relative;
-  height: 40vw;
-  width: 90%;
+  height: 45vw;
+  width: 100%;
 }
 
 .swiper {
@@ -53,4 +53,28 @@
 
 .swiper-pagination-bullet-active {
   background-color: var(--color-red) !important;
+}
+
+.opengym-info {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+@media (min-width: 1024px) {
+  .opengym-card {
+    width: 75%;
+  }
+
+  .swiper-container {
+    height: 35vw;
+  }
+
+  .opengym-info h3 {
+    font-size: 3rem;
+  }
+
+  .opengym-info p {
+    font-size: 1.5rem;
+  }
 }

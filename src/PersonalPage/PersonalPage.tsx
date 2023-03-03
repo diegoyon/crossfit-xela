@@ -54,17 +54,20 @@ const PersonalPage = () => {
             </SwiperSlide>
           </Swiper>
         </div>
-        <h3>Clases Personales</h3>
-        <p>
-          Las clases personales son sesiones de entrenamiento individuales
-          diseñadas para necesidades y metas específicas.
-        </p>
-        <p>
-          Tu entrenador trabajará junto contigo para establecer un programa de
-          entrenamiento para cumplir tus metas, manteniendote responsable de que
-          las cumplas y asimismo, asegurándote que tu técnica sea la correcta.
-        </p>
-        <p>Te ofrecemos una clase de prueba gratis.</p>
+        <div className="opengym-info">
+          <h3>Clases Personales</h3>
+          <p>
+            Las clases personales son sesiones de entrenamiento individuales
+            diseñadas para necesidades y metas específicas.
+          </p>
+          <p>
+            Tu entrenador trabajará junto contigo para establecer un programa de
+            entrenamiento para cumplir tus metas, manteniendote responsable de
+            que las cumplas y asimismo, asegurándote que tu técnica sea la
+            correcta.
+          </p>
+          <p>Te ofrecemos una clase de prueba gratis.</p>
+        </div>
       </div>
     </>
   );

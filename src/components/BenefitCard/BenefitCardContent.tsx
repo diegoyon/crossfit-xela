@@ -25,7 +25,7 @@ const BenefitCardContent = [
   {
     title: 'Diferentes entrenamientos diarios',
     description:
-      'Nos gusta mantener las cosas interesantes. Ningún día es igual. Espera ejercicios variados y movimientos funcionales para un entrenamiento efectivo y completo. Barras, kettlebells, mancuernas, pelotas medicinales, cuerdas, máquinas cardiovasculares: bicicletas y máquinas de remo y esquí e innumerables otros equipos lo encuentras en nuestro gimnasio para un entrenamiento de lo más variado posible.',
+      'Nos gusta mantener las cosas interesantes. Ningún día es igual. Espera ejercicios variados y movimientos funcionales para un entrenamiento eficiente y efectivo. Barras, kettlebells, mancuernas, pelotas medicinales, cuerdas, máquinas cardiovasculares como bicicletas, remos y esquís e innumerables otros equipos lo encuentras en nuestro gimnasio para un entrenamiento de lo más completo y variado posible.',
     images: [benefit31, benefit32, benefit33, benefit34, benefit35],
   },
 ];
