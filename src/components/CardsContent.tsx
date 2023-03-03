@@ -2,7 +2,7 @@ const CardsContent = [
   {
     title: 'Clases de CrossFit',
     description:
-      'Forma parte de nuestra comunidad uniéndote a nuestras clases grupales que consisten en ejercicios funcionales y constantemente variados.',
+      'Forma parte de nuestra comunidad uniéndote a nuestras clases grupales que consisten en ejercicios funcionales constantemente variados.',
     link: '/crossfit',
   },
   {
