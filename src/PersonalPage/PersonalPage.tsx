@@ -62,7 +62,7 @@ const PersonalPage = () => {
           </p>
           <p>
             Tu entrenador trabajará junto contigo para establecer un programa de
-            entrenamiento para cumplir tus metas, manteniendote responsable de
+            entrenamiento para cumplir tus metas, manteniéndote responsable de
             que las cumplas y asimismo, asegurándote que tu técnica sea la
             correcta.
           </p>

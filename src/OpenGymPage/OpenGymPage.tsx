@@ -64,8 +64,8 @@ const OpenGymPage = () => {
             la clase o quieras hacer tu propia progra.
           </p>
           <p>
-            Hemos dedicado 60 metros cuadrado de nuestras instalaciones con todo
-            el equipo necesario.
+            Hemos dedicado 60 metros cuadrados de nuestras instalaciones con
+            todo el equipo necesario.
           </p>
           <p>
             También contamos con horario de Open Gym de lunes a sábado de
