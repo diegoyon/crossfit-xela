@@ -1,7 +1,10 @@
-import React from 'react';
+import React, { useLayoutEffect } from 'react';
 import './SchedulePage.css';
 
 const SchedulePage = () => {
+  useLayoutEffect(() => {
+    window.scrollTo(0, 0);
+  });
   return (
     <section className="schedule">
       <h3>Horarios</h3>
