@@ -148,4 +148,33 @@
   .card-info button {
     font-size: 1rem;
   }
+
+  .hidden {
+    opacity: 0;
+    filter: blur(5px);
+    transform: translateX(-100%);
+    transition: all 1s;
+  }
+
+  .show {
+    opacity: 1;
+    filter: blur(0);
+    transform: translate(0);
+  }
+
+  .program-card:nth-child(2) {
+    transition-delay: 200ms;
+  }
+
+  .program-card:nth-child(3) {
+    transition-delay: 400ms;
+  }
+
+  /* .card-info:nth-child(2) {
+    transition-delay: 2.3s;
+  }
+
+  .card-info:nth-child(3) {
+    transition-delay: 3.3s;
+  } */
 }
