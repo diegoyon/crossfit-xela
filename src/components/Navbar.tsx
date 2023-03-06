@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Link } from 'react-router-dom';
+import { Link, NavLink } from 'react-router-dom';
 import './Navbar.css';
 import logo from '../images/logo.png';
 import NavbarContent from './NavbarContent';
@@ -38,7 +38,14 @@ const Navbar = () => {
           {NavbarContent.map((item, index) => {
             return (
               <li key={index} className={item.title} onClick={handleClick}>
-                <Link to={item.link}>{item.title}</Link>
+                <NavLink
+                  to={item.link}
+                  className={({ isActive }) =>
+                    isActive ? 'active' : 'underline-hover'
+                  }
+                >
+                  {item.title}
+                </NavLink>
               </li>
             );
           })}
@@ -58,7 +65,14 @@ const Navbar = () => {
         {NavbarContent.map((item, index) => {
           return (
             <li key={index} className={item.title} onClick={handleClick}>
-              <Link to={item.link}>{item.title}</Link>
+              <NavLink
+                to={item.link}
+                className={({ isActive }) =>
+                  isActive ? 'active' : 'underline-hover'
+                }
+              >
+                {item.title}
+              </NavLink>
             </li>
           );
         })}
