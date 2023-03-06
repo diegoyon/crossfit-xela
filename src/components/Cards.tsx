@@ -49,7 +49,7 @@ const Cards = (props: Card) => {
 
   return (
     <div ref={hiddenRef} className={`program-card hidden ${showClass}`}>
-      <div className="card-info">
+      <div className={`card-info hidden ${showClass}`}>
         <h3>{card.title}</h3>
         <p>{card.description}</p>
         <Link to={card.link}>
