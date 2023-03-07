@@ -117,6 +117,10 @@
   transition-delay: 0.3s;
 }
 
+.programs > p {
+  transition-delay: 200ms;
+}
+
 @media (min-width: 1024px) {
   .services {
     flex-direction: row;
